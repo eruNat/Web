@@ -1,0 +1,50 @@
+h1 {
+    background-color: limegreen;
+    padding: 5px;
+    margin-left: 50px;
+    text-shadow: 2px 2px 3px rgba(225, 216, 216, 0.825);
+}
+
+h2 {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    -webkit-text-stroke: 1px gray;
+}
+
+h3 {
+    background-color: lightgray;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    text-transform: capitalize;
+    background-color: lightgray;
+    border: 5px solid;
+    padding: 5px;
+    padding-right: 90px;
+    margin-left: 50px;
+    margin-right: 1360px;
+}
+
+video {
+    border: 10px solid gray;
+    margin-left: 50px;
+}
+
+img {
+    margin-left: 50px;
+}
+
+footer {
+    color: black;
+    background-color: limegreen;
+    margin-left: 50px;
+    -webkit-text-stroke: 1px black;
+}
