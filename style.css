@@ -1,6 +1,7 @@
 h1 {
     background-color: limegreen;
     padding: 5px;
+    width: 42px;
     margin-left: 50px;
     text-shadow: 2px 2px 3px rgba(225, 216, 216, 0.825);
 }
