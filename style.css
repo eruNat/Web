@@ -63,10 +63,25 @@ footer {
     body {
         background-color: azure;
     }
+    h2 {
+        width: 350px;
+    }
+    h3 {
+        width: 350px;
+    }
+    p {
+        width: 255px;
+    }
+    video {
+        width: 360px;
+    }
+    img {
+        width: 360px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 1280px) {
-    body {
-        background-color: ivory;
+    body {        
+        background-image: linear-gradient(ivory, gray);
     }
 }
