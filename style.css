@@ -1,56 +1,72 @@
+body {
+    background-color: antiquewhite;
+}
+
 h1 {
     background-color: #34A99D;
     padding: 5px;
     width: 42px;
-    margin-left: 50px;
+    margin-left: 30px;
     text-shadow: 2px 2px 3px rgba(225, 216, 216, 0.825);
 }
 
 h2 {
     color: cyan;
     background-color: #395B64;
-    width: 490px;
+    width: 470px;
     padding: 5px;
     margin-top: 5px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
     -webkit-text-stroke: 1px gray;
 }
 
 h3 {
     background-color: lightgray;
-    width: 490px;
+    width: 470px;
     padding: 5px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-bottom: 5px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 p {
-    width: 150px;
+    width: 375px;
     text-transform: capitalize;
     background-color: #A5C9CA;
     border: 5px solid;
     padding: 5px;
     padding-right: 90px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 video {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 img {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 footer {
     color: black;
     background-color: #34A99D;
-    margin-left: 50px;
+    margin-left: 30px;
     width: 110px;
     padding: 5px;
     -webkit-text-stroke: 1px black;
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: azure;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1280px) {
+    body {
+        background-color: ivory;
+    }
 }
