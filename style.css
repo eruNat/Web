@@ -85,6 +85,9 @@ footer {
 }
 
 @media (min-width: 481px) and (max-width: 1280px) {
+    * {
+        box-sizing: border-box;
+    }
     body {        
         background-image: linear-gradient(ivory, gray);
     }
