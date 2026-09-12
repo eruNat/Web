@@ -79,7 +79,7 @@ footer {
     body {
         background-image: linear-gradient(azure, gray);
     }
-    h1, h2 ,h3, p, li, footer {
+    h1, h2 ,h3, h4, p, li, footer {
         max-width: 340px;
         width: 90%;
         padding: 5px;
@@ -92,6 +92,12 @@ footer {
         display: block;
         margin: 0 auto;
     }
+    .logo {
+        width: 90%;
+        max-width: 256px;
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 1280px) {
@@ -101,7 +107,7 @@ footer {
     body {        
         background-image: linear-gradient(ivory, gray);
     }
-    h1, h2 ,h3, p, li, footer {
+    h1, h2 ,h3, h4, p, li, footer {
         max-width: 600px;
         width: 90%;
         padding: 5px;
@@ -111,6 +117,12 @@ footer {
     video, img {
         width: 90%;
         max-width: 600px;
+        display: block;
+        margin: 0 auto;
+    }
+    .logo {
+        width: 90%;
+        max-width: 256px;
         display: block;
         margin: 0 auto;
     }
